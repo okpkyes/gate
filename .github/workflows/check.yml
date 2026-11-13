@@ -7,9 +7,9 @@ name: VPN Gate Node Check
 #   schedule:
 #     - cron: '*/30 * * * *'
 
-on:
-  schedule:
-    - cron: '*/30 * * * *'
+# on:
+#  schedule:
+#    - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       max_nodes:
